@@ -1,0 +1,15 @@
+h2{
+	color: blanchedalmond;border-color: goldenrod;background-size: 30px;
+}
+h1{
+	color: goldenrod;text-align: center;border: 5px black solid;}
+	color: black;text-decoration-color: rgba(176, 255, 170, 1.0);}
+h1{background-color: C3945C;}
+body{background-image:url(https://media.istockphoto.com/photos/blue-mockup-for-text-with-peony-flower-picture-id1402127820?k=20&m=1402127820&s=612x612&w=0&h=hThyms35a7U9PChERRAan1zRMRc4eJoHN9IzSsWWLiI=);}
+body{background-size:cover;}
+p{font-style: italic; color:darkgoldenrod;line-height: 20px;}
+div{font-style: italic; color:goldenrod; line-height: 20px; }
+h2{color:goldenrod ;}
+img:hover{
+	transform: scale(1,1);
+}

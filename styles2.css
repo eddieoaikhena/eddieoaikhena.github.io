@@ -1,0 +1,12 @@
+h1{border-width: 5px;color: green;}
+p{color: darkgoldenrod;
+border: solid red;font-style: italic;}
+p{border: width 5x;display: inline-block;
+padding: 10px 10px 10px 10px;
+margin: 20px;cursor: pointer;}
+body{
+	background-image: url(https://media.istockphoto.com/vectors/abstract-geometric-hexagon-tunnel-background-in-black-color-vector-id1340706467?k=20&m=1340706467&s=612x612&w=0&h=_HMyZAatMGc89MR4a3hrdppEZW6VCtyaPfoMogyi_Zc=);background-size: cover;
+}
+p:hover{
+	transform: scale(1.1);
+}
