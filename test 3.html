@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register</title>
+	<title>Personal Information Form</title>
 </head>
 <link rel="stylesheet" type="text/css" href="styles3.css">
 <body>
 	<!-- Use GET, not POST -->
 <form method="GET">
+	Title: <select title="text">
+		<option value="Mr">Mr</option><br>
+		<option value="Mrs">Mrs</option><br>
+		<option value="Miss">Miss</option><br>
+		<option value="Dr">Dr</option><br>
+		<option value="Chief">Chief</option><br>
+		<option value="Prof">Prof</option><br>
+	</select><br>
 	First Name: <input type="text" name="first name"><br>
 	Last Name: <input type="text" name="last name"><br>
-	Phone: <input type="number"required><br>
-	Email: <input type="email" name="email"required><br>
-	Password: <input type="password"name="password"><br>
-	Birthday: <input type="date" name="date"><br>
-	Best friend Name: <input type="text" name="best friend"><br>
-
+	Middle Name: <input type="text" name="middle name"><br>
 	Gender:<br>
 	<input type="radio" name="gender" value="male">male<br>
 	<input type="radio" name="gender" value="female">female<br>
 	<input type="radio" name="gender" value="other">other<br>
-	Pets:<br>
+	Date of birth: <input type="date" name="date"><br>
+	Phone: <input type="number"required><br>
+	Email: <input type="email" name="email"required><br>
+	Password: <input type="password"name="password"><br>
+	
+	Best Food: <input type="text" name="best food"><br>
+	Favourite Pet:<br>
 	 <input type="checkbox" name="cat">cats<br>
 	 <input type="checkbox" name="dog">dogs<br>
 	 <input type="checkbox" name="rabbit">rabbits<br>
-	 Cars: <select name="cars">
+	 Favourite Car: <select name="cars">
 	 	<option value="toyota">toyota</option><br>
 	 	<option value="volvo">volvo</option><br>
 	 	<option value="audi">audi</option><br>
@@ -31,7 +40,7 @@
 	 </select><br>
 
 
-	<input type="Submit"value="Register"><br>
+	<input type="Submit"value="Submit"><br>
 	<input type="Reset">
 </form>
 

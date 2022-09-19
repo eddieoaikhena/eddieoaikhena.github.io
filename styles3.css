@@ -1,9 +1,8 @@
 body{
-	color: darkgoldenrod;text-align:left;font-family: cursive;cursor: pointer;
+	color: black;text-align:left;font-family: cursive;cursor: pointer;
 }
 p{font-family: cursive;}
 footer{text-align:center;}
 body{
-	background-image: url(https://media.istockphoto.com/photos/world-map-and-networking-picture-id1346580665?b=1&k=20&m=1346580665&s=170667a&w=0&h=t_cC_V86wAspm0v9J8mh7XYIRI3QffCK14MzX6ZyeoY=);
-	background-size: cover;
-}
+	background-image: url(https://media.istockphoto.com/photos/personal-data-note-sticker-with-text-on-red-background-picture-id1418315349?k=20&m=1418315349&s=612x612&w=0&h=SOnGgjv8RP9GUU9XIXt1rnOKBVrzGsi7CoiVgXJMEkE=);
+background-size: cover;
