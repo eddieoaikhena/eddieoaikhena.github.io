@@ -1,0 +1,33 @@
+img{
+	width: 300px;
+	height: 300px;
+	transition: all 1s;
+	box-shadow: 4px 4px 4px grey;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid orangered;
+	border-right: 2px solid orangered;
+	width: 400px;
+	text-align: center;
+	text
+	box-shadow: 4px 4px 4px grey;
+	color: goldenrod;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-column-gap: 10px;
+}
+body{
+	background-image: url(https://media.istockphoto.com/photos/jungle-table-background-interior-table-for-a-cosmetic-item-against-picture-id1325180132?b=1&k=20&m=1325180132&s=170667a&w=0&h=FfPpC8uQeGdWZ0HShk2z3hlnpGOZV4HXiGZ0BT6wedY=);
+	background-size: cover;
+}
