@@ -66,11 +66,11 @@ for (var i=0;  i < todos.lenght; i++) {
 }
 
 // while loop
-//var counterOne = 1
-//while (counterOne < 10) {
-//	console.log("while", counterOne);
-//	counterOne++;
-//}  
+var counterOne = 1
+while (counterOne < 10) {
+	console.log("while", counterOne);
+	counterOne++;
+}  
 // This can also be run backwards.
 
 var counterTwo = 10
